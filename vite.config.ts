@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
-	base: process.env.NODE_ENV === 'production' ? '/test-pwa/' : '/',
+	base: process.env.NODE_ENV === 'production' ? '/pwa-test/' : '/',
 	plugins: [
 		tailwindcss(),
 		sveltekit({
@@ -29,8 +29,8 @@ export default defineConfig({
 				theme_color: '#ffffff',
 				background_color: '#ffffff',
 				display: 'standalone',
-				start_url: '/test-pwa/',
-				scope: '/test-pwa/',
+				start_url: '/pwa-test/',
+				scope: '/pwa-test/',
 				icons: [
 					{
 						src: '/icons/icon-192.png',

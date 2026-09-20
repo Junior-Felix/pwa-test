@@ -15,6 +15,6 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<link rel="manifest" href="/pwa-test/site.webmanifest" />
+	<link rel="manifest" href="/site.webmanifest" />
 </svelte:head>
 {@render children()}
