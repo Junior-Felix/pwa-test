@@ -26,12 +26,12 @@
 	{:else}
 		<p>You are using the website.</p>
 	{/if}
-    <div class="grid grid-cols-2 gap-4">
-        <img src="/img/test-img-1.jpg" alt="test one">
-        <img src='/img/test-img-2.jpg' alt='test two'> 
-        <img src="/img/test-img-3.jpg" alt="test three">
-        <img src="/img/test-img-4.jpg" alt="test four">
-        <img src="/img/test-img-5.jpg" alt="test five">
-        <img src="/img/test-img-6.jpg" alt="test six">
-    </div>
+	<div class="grid grid-cols-2 gap-4">
+		<img src="/pwa-test/img/test-img-1.jpg" alt="test one" />
+		<img src="/pwa-test/img/test-img-2.jpg" alt="test two" />
+		<img src="/pwa-test/img/test-img-3.jpg" alt="test three" />
+		<img src="/pwa-test/img/test-img-4.jpg" alt="test four" />
+		<img src="/pwa-test/img/test-img-5.jpg" alt="test five" />
+		<img src="/pwa-test/img/test-img-6.jpg" alt="test six" />
+	</div>
 </main>
